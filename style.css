@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #fdf4f1; /* Light background color */
+}
+
+.top-bar {
+    background-color: #333; /* Dark background color */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.top-bar span {
+    margin-left: 30px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #a259ff;
+}
+
+.logo span {
+    color: #a259ff; /* Purple color for part of the logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+nav ul li a :hover{
+    text-decoration: none;
+    color: #a259ff;
+    font-weight: 600;
+}
+
+.btn-appointment {
+    background-color: transparent;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-appointment:hover {
+    background-color: #333;
+    color: #a259ff;
+    transition: 0.3s;
+}
